@@ -2,7 +2,6 @@
   "name": "play-what",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://<github-username>.github.io/<project-repo>",
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
@@ -17,5 +16,7 @@
   },
   "devDependencies": {
     "gh-pages": "^1.0.0"
-  }
+  },
+  "homepage": "https://murray918.github.io/PLAY-WHAT",
+
 }
