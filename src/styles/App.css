@@ -18,6 +18,32 @@
   font-size: large;
 }
 
+form{
+  margin:10%;
+
+}
+
+hr {
+  width: 100%;
+}
+
+button {
+  margin-left: 40%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.playList {
+  margin: 15%;
+}
+
+.playlistItem {
+  width: 156%;
+  margin-left: 3.5em;
+  margin-top: 1em;
+}
+
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }

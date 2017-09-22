@@ -4,20 +4,25 @@ export default class PlayListItem extends Component {
 
   render(){
 
-    let border = {
-    border: '1px solid black'
-  }
 
     let songs = this.props.arr.map( (song, index) => {
 
       return (
-        <div style={border} key={index}>
-          <div>User: {song.userName}</div> <br></br>
-          <div>Artist/Band: {song.songArtist}</div> <br></br>
-          <div>Title: {song.songTitle}</div> <br></br>
-          <div>Notes: {song.songNotes}</div> <br></br>
+<div className="row playlistItem" key={index}>
+  <div className="col-sm-6">
+    <div className="card">
+      <div className="card-block">
+        <h6 className="card-title">User: {song.userName}</h6>
+        <p className="card-text">Artist/Band: {song.songArtist}</p>
+        <p  className="card-text">Title: {song.songTitle}</p>
+        <p className = "card-text">Notes: {song.songNotes}</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-        </div>
+
+
       );
     });
     return (
